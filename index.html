@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rinterio</title>
+    <!-- daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+              font-family:{
+            monrope:["Manrope", sans - serif;]
+        }
+            }
+          }
+        }
+    </script>
+
+</head>
+<!--  <div class="border rounded-full p-1 -rotate-90 text-amber-50 bg-black"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                            </svg></div> -->
+
+<body class="font-family">
+    <!-- Header section -->
+    <header class="container mx-auto bg-gradient-to-t from-gray-50 to-gray-100 shadow ">
+        <!-- nav bar design  -->
+        <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">
+                        <div class="border rounded-full p-1 -rotate-90  bg-lime-500"> <svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                            </svg></div> Rinterio
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-black">Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                
+
+                <div class="navbar-end gap-3">
+                    <!--  search icon -->
+                <div class="bg-white border-white rounded-full p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />                    </svg>
+                </div>
+                <!-- shop icon -->
+                 <div class="bg-white border-white rounded-full p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>                    
+
+                 </div>
+
+                    <a class="btn rounded-3xl bg-lime-500">Book Consult <div
+                            class="border rounded-full p-1 -rotate-90 text-amber-50 bg-black"> <svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                            </svg></div>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+        <!--  header banner  -->
+          <section class="container mx-auto">
+             <div class="p-5">
+                <!--  images banner -->
+                <div class="flex justify-center"> 
+                    <img  src="images/assets/banner.png" alt="">
+                </div>
+                <!--  text banner  -->
+               <div>
+                <h2 class="font-extrabold text-3xl md:text-5xl text-center py-3"> A barn house of this design has a <br> striking appearance </h2>
+                <p class="text-center py-3 text-[#494949]"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>                
+               </div>
+               <!-- banner button  -->
+               <div class="flex justify-center mt-8 mb-24" >
+                <button class="btn rounded-3xl bg-[#ABEF5F] font-bold my-3 mx-3">View Details <div class="border rounded-full p-1 -rotate-90 text-amber-50 bg-black"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                </svg></div> </button>
+               </div>               
+             </div>
+          </section>
+    </header>
+    <!--  main section  -->
+    <main class="container mx-auto">
+        <!-- section design  -->
+         <section class="bg-gray-200">
+
+            <!--  card - 1 -->
+
+              <div class="md:grid grid-cols-2 gap-6">
+                <div class="mt-5 ml-32">
+                    <!--  about us design  -->
+                    <img class="mx-4" src="images/assets/Vector.png" alt="">
+                    <div class="mb-6 mt-4">
+                    <button class="btn rounded-full my-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                      About Us</button>
+                    
+                        <h3 class="font-bold text-3xl mb-6">We design thoughtful, <br> liveable spaces</h3>
+                    <p class="text-[#494949] my-3"> The barn house captivates with its blend of rustic charm and  <br>
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    </div>
+
+                        <!-- commercial -->
+                 <div class="flex border rounded-xl bg-white p-6 mb-6">
+                    <div class="mr-4 mt-4">
+                        <img class="" src="images/assets/commercial.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-2xl p-1">Commercial</h4>
+                        <p class="p-1"> The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                 </div>
+                 <!--  Residential -->
+                 <div class="flex border rounded-xl bg-white p-6 mt-6">
+                    <div class="mr-4 mt-4">
+                        <img class="" src="images/assets/commercial.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-2xl p-1">Commercial</h4>
+                        <p class="p-1"> The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                 </div>
+
+                </div>
+                <!-- rectangle imges  -->
+                <div class="mt-24">
+                    <img src="images/assets/Rectangle.png" alt="">
+                </div>
+              </div>
+
+              <!--  client review  -->
+              <div class="grid grid-cols-4 mx-32 mt-24 bg-white rounded-3xl ">
+                <div class="stat place-items-center space-2">
+                  <div class="stat-title">Downloads</div>
+                  <div class="stat-value">235+</div>
+                  <div class="stat-desc">Happy Client Review</div>
+                </div>
+              
+                <div class="stat place-items-center space-2">
+                  <div class="stat-title">Users</div>
+                  <div class="stat-value">50+</div>
+                  <div class="stat-desc">works Departments</div>
+                </div>
+              
+                <div class="stat place-items-center space-2">
+                  <div class="stat-title">New Registers</div>
+                  <div class="stat-value">30k+</div>
+                  <div class="stat-desc">Our Happy Client </div>
+                </div>
+                <div class="stat place-items-center space-2">
+                  <div class="stat-title">New Registers</div>
+                  <div class="stat-value">307+</div>
+                  <div class="stat-desc">Staff Members</div>
+                </div>
+              </div>
+
+         </section>
+
+    </main>
+    <!--  footer section  -->
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
